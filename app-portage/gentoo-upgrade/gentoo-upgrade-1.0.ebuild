@@ -4,8 +4,8 @@
 EAPI=7
  
 DESCRIPTION="Gentoo system upgrade script"
-HOMEPAGE="https://github.com/lyra64/Gentoo-upgrade-script"
-SRC_URI="https://github.com/lyra64/Gentoo-upgrade-script/archive/gentoo-upgrade-1.0.tar.gz"
+HOMEPAGE="https://github.com/lyra64/gentoo-upgrade"
+SRC_URI="https://github.com/lyra64/gentoo-upgrade/archive/1.0.tar.gz"
  
 LICENSE=""
 SLOT="0"
