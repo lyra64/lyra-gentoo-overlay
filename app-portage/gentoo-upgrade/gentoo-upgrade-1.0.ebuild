@@ -11,7 +11,8 @@ LICENSE=""
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
- 
+S=${WORKDIR}/Gentoo-upgrade-script-1.0
+
 DEPEND="
     app-portage/eix
     app-portage/gentoolkit
