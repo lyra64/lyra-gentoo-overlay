@@ -14,7 +14,7 @@ IUSE=""
  
 DEPEND="
     app-portage/eix
-    app-portage/gentootoolkit
+    app-portage/gentoolkit
 "
 
 src_install () {
