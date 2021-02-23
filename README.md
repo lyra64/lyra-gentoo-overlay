@@ -1,5 +1,6 @@
 # alicela1n-gentoo-overlay
 My personal ebuild repository for Gentoo
+I am aware that some packages are broken, I don't have a Gentoo install on hand to fix this at the moment.
 
 Add repository with:
 ```
