@@ -4,11 +4,11 @@ I am aware that some packages are broken, I don't have a Gentoo install on hand 
 
 Add repository with:
 ```
-# eselect repository add alicela1n-overlay git https://github.com/alicela1n/alicela1n-gentoo-overlay.git
-# emaint sync -r alicela1n-overlay
+# eselect repository add alicela1ns-overlay git https://github.com/alicela1n/alicela1n-gentoo-overlay.git
+# emaint sync -r alicela1ns-overlay
 ```
 
 Remove repository with:
 ```
-# eselect repository del alicela1n-overlay git https://github.com/alicela1n/alicela1n-gentoo-overlay.git
+# eselect repository del alicela1ns-overlay git https://github.com/alicela1n/alicela1n-gentoo-overlay.git
 ```
