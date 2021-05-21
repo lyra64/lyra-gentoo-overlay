@@ -11,6 +11,9 @@ LICENSE=""
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
+
+RESTRICT="mirror"
+
 S=${WORKDIR}/gentoo-update-1.1
 
 DEPEND="
