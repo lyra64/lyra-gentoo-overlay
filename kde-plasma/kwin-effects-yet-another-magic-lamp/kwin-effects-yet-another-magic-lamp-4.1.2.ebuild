@@ -13,7 +13,7 @@ if [[ ${PV} == 9999* ]] ; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/zzag/kwin-effects-yet-another-magic-lamp.git"
 else
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="amd64 x86"
 	SRC_URI="https://github.com/zzag/kwin-effects-yet-another-magic-lamp/archive/${PV}.tar.gz"
 fi
 
