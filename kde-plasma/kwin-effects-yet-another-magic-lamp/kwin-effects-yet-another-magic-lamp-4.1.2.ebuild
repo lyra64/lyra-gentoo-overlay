@@ -26,7 +26,7 @@ IUSE=""
 DEPEND="
 	dev-util/cmake
 	kde-frameworks/extra-cmake-modules
-	kde-plasma/kwin
+	<=kde-plasma/kwin-5.20.5-r1
 	"
 RDEPEND="${DEPEND}"
 BDEPEND=""
