@@ -1,0 +1,39 @@
+diff --git a/util/cbfstool/Makefile b/util/cbfstool/Makefile
+index 7ef46a72..2b61a5de 100644
+--- a/util/cbfstool/Makefile
++++ b/util/cbfstool/Makefile
+@@ -4,7 +4,7 @@ objutil ?= $(top)/util
+ CONFIG_FMD_GENPARSER ?= n
+ 
+ HOSTCC ?= $(CC)
+-PREFIX ?= /usr/local
++PREFIX ?= /usr
+ BINDIR ?= $(PREFIX)/bin
+ INSTALL ?= /usr/bin/env install
+ OBJCOPY ?= objcopy
+diff --git a/coreboot-4.14/util/ifdtool/Makefile b/util/ifdtool/Makefile
+index e8d818c0..9f56cff3 100644
+--- a/util/ifdtool/Makefile
++++ b/util/ifdtool/Makefile
+@@ -6,7 +6,7 @@ PROGRAM = ifdtool
+ 
+ CC     ?= gcc
+ INSTALL = /usr/bin/env install
+-PREFIX  = /usr/local
++PREFIX  = /usr
+ CFLAGS  = -O2 -g -Wall -Wextra -Wmissing-prototypes -Werror
+ CFLAGS += -I../../src/commonlib/include -I../../src/commonlib/bsd/include
+ CFLAGS += -I../cbfstool/flashmap
+diff --git a/util/intelmetool/Makefile b/util/intelmetool/Makefile
+index a97f380d..8b48bcda 100644
+--- a/util/intelmetool/Makefile
++++ b/util/intelmetool/Makefile
+@@ -4,7 +4,7 @@ PROGRAM = intelmetool
+ 
+ CC      ?= gcc
+ INSTALL ?= /usr/bin/env install
+-PREFIX  ?= /usr/local
++PREFIX  ?= /usr
+ CFLAGS  ?= -O0 -g -Wall -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-unused-function
+ LDFLAGS += -lpci -lz
+ 
