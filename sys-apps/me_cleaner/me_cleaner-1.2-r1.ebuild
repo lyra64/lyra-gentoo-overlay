@@ -1,5 +1,5 @@
 # Copyright (c) 2018 sakaki <sakaki@deciban.com>
-#			(c) 2021 quarkyalice <devfusediboot@protonmail.com>
+#           (c) 2021 quarkyalice <devfusediboot@protonmail.com>
 # License: GPL v3+
 # NO WARRANTY
 
